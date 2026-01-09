@@ -1218,3 +1218,16 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Portfolio CTA alignment (mobile-centered) */
+.portfolio-more {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+  .portfolio-more {
+    justify-content: center;
+  }
+}
